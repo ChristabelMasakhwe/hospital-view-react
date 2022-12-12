@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@200&display=swap');
+.card{
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  padding: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+  border-radius: 9px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+}
+.hospital-card{
+  display: flex;
+}
+#card-image {
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+}
+.container{
+  background-image: url("https://i0.wp.com/trendinginkenya.com/wp-content/uploads/2019/02/kenyan-hospital.png?fit=764%2C510");
+  position:relative;
+  text-align: justify;
+  margin:auto;
+  height: 500px;
+  width: 100%
+}
+
+.navbar{
+  display: flex;
+  height: 100px;
+  width: 90%;
+  color:#A23A36;
+  align-items: center;
+  margin-inline: auto;
+  justify-content: space-between;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+}
+.navlinks{
+  display: flex;
+  flex: 1;
+  
+  width: 100%;
+  justify-content: space-around;
+}
+.navlinks {
+  font-size: 20px;
+  text-decoration: none;
+  color: #A23A36;
+  font-weight: bolder;
+}
+
+
+#about{
+  /* box-sizing: border-box; */
+  height: 70vh;
+  /* width: 100%; */
+  /* text-align: center; */
+  margin: auto;
+  font-size: large;
+  /* justify-content: center; */
+  padding-top: 0.1px;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center left; */
+  }
+  #admission{
+    height: 70vh;
+  }
+  table, td, th{
+    border: 1px solid;
+    width: 80%;
+    padding: 15px;
+  }
+  th {
+    color: #A23A36;
+  }
+
+  .newadmission {
+    height: 100vh;
+  }
+  #forminput input {
+    height: 50px;
+    width: 500px;
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    margin: 20px;
+    font-size: medium;
+    border-radius: 2em;
+    text-align: center;
+  }
+  #login-input input{
+    height: 50px;
+    width: 500px;
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    margin: 20px;
+    font-size: medium;
+    border-radius: 2em;
+    text-align: center;
+  }
+  #register {
+    height: 80vh;
+  }
+
+  #register-form input {
+    height: 50px;
+    width: 500px;
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    margin: 20px;
+    font-size: medium;
+    border-radius: 1em;
+    text-align: center;
+  }
+
+  .footer {
+   
+    color: #A23A36;
+    box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding-top: 0.1px;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  font-weight: bold;
+  }
+  .footer>h2,h3{
+    font-size: large;
+    font-weight: bold;
+  }
+  i{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .h{
+  
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .copy{
+    color: #FFFFFF;
+    margin-top: -30px;
+    margin-left: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
